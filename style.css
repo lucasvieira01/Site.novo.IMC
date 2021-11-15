@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    background-image: linear-gradient(to right, #5ae8e357, #5ec3f298);
+}
+
+main {
+    margin: auto;
+    background-color: white;
+    min-width: 250px;
+    max-width: 750px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.548);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+/*
+cores(mais escura para a mais clara)
+#8238EB
+#655EF2
+#6187DB
+#5EC2F2
+#5AE8E3
+*/
+
+header > h1 {
+    padding-top: 20px;
+    font-size: 3em;
+    margin-top: 1%;
+    color: #5ec3f298;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.575);
+}
+
+article > p {
+    font-size: 1.2em;
+}
+
+#altura {
+    width: 70px;
+    height: 25px;
+    font-size: 1.2em;
+}
+
+#peso {
+    width: 70px;
+    height: 25px;
+    font-size: 1.2em;
+}
+
+#botaocalcular {
+    font-size: 1.2em;
+    margin: 0;
+    display: inline-flex;
+    flex-direction: row;
+    border-bottom: groove;
+    border-radius: 5px;
+}
+
+#botaolimpar {
+    font-size: 1.2em;
+    margin-left: 7%;
+    display: inline-flex;
+    flex-direction: row;
+    border-bottom: groove;
+    border-radius: 5px;
+}
+
+div {
+    background-color: white;
+    max-width: 330px;
+    min-height: 20px;
+    margin: auto;
+    text-align: center;
+    padding: 11px 0px;
+    color: gray;
+    border: solid #5AE8E3;
+}
+
+span#res {
+    padding-bottom: 1%;
+}
+
+section {
+    color: black;
+    background-color: #6187DB;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    padding-bottom: 2px;
+}
+section > h2 {
+    background-color: #655EF2;
+    border-radius: 10px 10px 0px 0px;
+}
+
+ul {
+    columns: 2;
+    text-align: justify;
+    padding-left: 20%;
+}
