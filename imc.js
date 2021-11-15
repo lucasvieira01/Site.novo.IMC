@@ -16,10 +16,33 @@ function calcular() {
     if (resultadof <= 29.9 && resultadof > 24.9) {
         texto.innerHTML = "Você está no índice de Sobrepeso"
     }
-    if (resultadof <= 39.9 && resultadof > 29.9) {
-        texto.innerHTML = "Você está no índice de Obesidade"
+    if (resultadof <= 34.9 && resultadof > 29.9) {
+        texto.innerHTML = "Você está no índice de Obesidade Grau I"
+    }
+    if (resultadof <= 39.9 && resultadof > 35)  {
+        texto.innerHTML  = "Você está no índice de Obesidade Grau II"
     }
     if (resultadof >= 40 && resultadof > 39.9) {
-        texto.innerHTML = "Você está no índice de Obesidade Grave"
+        texto.innerHTML = "Você está no índice de Obesidade Grau III (Obesidade mórbida)"
     }
+}
+var a = window.document.querySelector('input#botaocalcular')
+    a.addEventListener('click', clicar)
+var b = window.document.getElementById('res')
+var c = window.document.getElementById('indice')
+
+function clicar() {
+        b.style.color = 'blue'
+        b.style.fontSize = '1.3em'
+        c.style.color = 'blue'
+        c.style.fontSize = '1.3em'
+        c.style.fontWeight = 'bold'
+    }
+
+function limpar() {
+    var altura = document.getElementById('altura')
+    var peso = document.getElementById('peso')
+
+    altura.innerHTML = ''
+    peso.innerHTML= ''
 }

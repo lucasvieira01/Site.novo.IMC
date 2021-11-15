@@ -62,6 +62,11 @@ article > p {
     border-radius: 5px;
 }
 
+#botaocalcular:hover {
+    background-color: #655EF2;
+    color: white;
+}
+
 #botaolimpar {
     font-size: 1.2em;
     margin-left: 7%;
@@ -69,6 +74,11 @@ article > p {
     flex-direction: row;
     border-bottom: groove;
     border-radius: 5px;
+}
+
+#botaolimpar:hover {
+    background-color: #655EF2;
+    color: white;
 }
 
 div {
@@ -85,7 +95,7 @@ div {
 section {
     color: black;
     background-color: #6187DB;
-    max-width: 330px;
+    max-width: 350px;
     margin: auto;
     border-radius: 10px;
     padding-bottom: 2px;
