@@ -38,6 +38,7 @@ header > h1 {
 
 article > p {
     font-size: 1.2em;
+    padding: 1% 12%;
 }
 
 #altura {
@@ -47,8 +48,8 @@ article > p {
 }
 
 #peso {
-    width: 70px;
-    height: 25px;
+    max-width: 70px;
+    max-height: 25px;
     font-size: 1.2em;
 }
 
@@ -84,7 +85,7 @@ div {
 section {
     color: black;
     background-color: #6187DB;
-    max-width: 400px;
+    max-width: 330px;
     margin: auto;
     border-radius: 10px;
     padding-bottom: 2px;
@@ -97,5 +98,4 @@ section > h2 {
 ul {
     columns: 2;
     text-align: justify;
-    padding-left: 20%;
 }
