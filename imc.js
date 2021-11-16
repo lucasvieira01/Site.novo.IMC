@@ -40,9 +40,6 @@ function clicar() {
     }
 
 function limpar() {
-    var altura = document.getElementById('altura')
-    var peso = document.getElementById('peso')
-
-    altura.innerHTML = ''
-    peso.innerHTML= ''
+    document.getElementById('altura').value = ""
+    document.getElementById('peso').value = ""
 }
